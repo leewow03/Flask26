@@ -14,7 +14,7 @@ class Member:
         # Member객체를 member변수에 넣음
 
     @classmethod # self대신 cls라는 객체를 사용 (주소대신 객체)
-    def from_db(cls, row: dict):
+    def  from_db(cls, row: dict):
         #            row : dict(타입 명시) 힌트
         """
         DictCursor로부터 전달받은 딕셔너리 데이터를 Member 객체로 변환합니다.
